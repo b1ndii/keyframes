@@ -1,0 +1,23 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    /* from{
+        top: 0px;
+    }
+    to {
+        top: 200px;
+    } */
+     /* 0%{top: 0px; background-color: red ;width: 200px;}
+     100%{top: 200px;background-color: yellow; width: 300px;} */
+     /* 0%{left: 0px;top: 0px;}
+     25%{left: 200px;top: 0px;}
+     50%{left: 200px;top: 200px;}
+     75%{left: 0px;top: 200px;}
+     100%{left: 0px;top: 0px;} */
+}
